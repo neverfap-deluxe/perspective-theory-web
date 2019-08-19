@@ -2,14 +2,14 @@
 @import "_main.scss";
 
 // // templates
-// @import "_header.scss";
+@import "_header.scss";
 // @import "_account_info.scss";
 // @import "_box_info.scss";
 // @import "_breadcrumbs.scss";
 // @import "_footer.scss";
 
 // // pages
-// @import "_homepage.scss";
+@import "_homepage.scss";
 // @import "_courses.scss";
 // @import "_single.scss";
 // @import "_page.scss";
@@ -23,3 +23,11 @@
 // @import "_javascript.scss";
 // @import "_form.scss";
 // @import "_shortcodes.scss";
+
+.pt__main {
+  .pt__main__hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

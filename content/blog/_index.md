@@ -7,4 +7,5 @@ type: page
 url: /blog
 ---
 
-No Content Found
+Welcome to the complete list of Perspective Theory blog articles.
+

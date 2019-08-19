@@ -1,126 +1,17 @@
 .header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  .header__links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-    margin: 0;
-    padding: 0;
-    height: 100%;
-
-    .header__link__wrapper {
-      display: block;
-      // height: 100%;
-      list-style: none;
-      transition: .1s background ease-in, .1s box-shadow ease-in;
-      // border-bottom: 5px solid white;
-      position: relative;
-
-      .header__link {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        height: 3.4rem;
-        min-width: 6.5rem;
-
-        color: white;
-        font-size: 1rem;
-      }
-    }
-    .header__link__wrapper:hover {
-    }
+  margin-bottom: 6rem;
+}
+.header__links {
+  .header__link {
+    display: inline-block;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding: 1rem;
+    transition: .2s;
+    color: black;
+    margin: 0!important;
+  }
+  .header__link:hover {
+    background: rgb(231, 231, 231);
   }
 }
-
-@media screen and (min-width: 420px) {
-  .header {
-    top: 0;
-    margin-bottom: 0;
-    // top: 2.43rem;
-    // margin-bottom: 2rem;
-    .header__links {
-      top: 0;
-
-      .header__link__wrapper {
-        .header__link {
-          padding-left: 8px;
-          padding-right: 8px;
-        }
-      }
-    }
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .header {
-    // top: 0;
-    .header__links {
-      // border-right: 5px solid black;
-      // border-left: 5px solid black;
-
-      .header__link__wrapper {
-        // border-bottom: 5px solid black;
-
-        .header__link {
-        }
-      }
-    }
-  }
-}
-
-
-
-// .header__link__wrapper {
-//   position: relative;
-//   display: inline-block;
-//   background-color: yellow;
-//   transform: scale(1) rotate(-2deg) skew(-20deg);
-//   z-index: -1;
-// }
-// .header__link__wrapper > .header__link {
-//   display: inherit;
-//   transform: scale(0.7) rotate(2deg) skew(20deg);
-//   color: black;
-// }
-
-// // these might possibly need to be the element under .header__link__wrapper
-// .header__link__wrapper {
-//   color: var(--primary-text);
-//   // padding: 0.5rem 0;
-//   position: relative;
-// }
-
-// .header__link__wrapper:hover,
-// .header__link__wrapper:focus {
-//   color: var(--primary-text);
-// }
-
-// .header__link__wrapper::before {
-//   bottom: 0;
-//   content: "";
-//   display: block;
-//   height: 3px;
-//   position: absolute;
-//   transition: all 0.25s ease-in-out;
-//   width: 0%;
-// }
-
-// .header__link__wrapper::before {
-//   background-color: var(--primary);
-// }
-
-// .header__link__wrapper:hover::before,
-// .header__link__wrapper:focus::before {
-//   opacity: 1;
-//   width: 100%;
-// }
-
-// .header__link__wrapper.active::before {
-//   opacity: 1;
-//   width: 100%;
-// }
